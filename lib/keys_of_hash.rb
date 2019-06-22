@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(arguments)
-    arguments.keys_of(array)
+  def keys_of(*arguments, opts)
+    arguments.keys_of(opts)
   end
 end
