@@ -1,6 +1,6 @@
 class Hash
-  def keys_of(*arguments, array)
-    arguments.keys_of(array)
-    return array
+  def keys_of(*animals, location)
+    animals.keys_of(location)
+    return location
   end
 end
